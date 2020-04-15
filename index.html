@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Qawaaid-Fiqeeyyat || Result Check</title>
+    
+    <style>
+        body {
+            background-color: #d6d6d6;
+            color: hsl(273, 4%, 51%);
+            margin: 0;
+            font-family: 'Karla', sans-serif;
+            line-height: 1.6;
+            text-align: center;
+            
+        } 
+        header {
+            margin: 0 0 4rem;
+            background-color: #fff;
+        }
+        header img.main-image {
+            width: 100%;
+        }
+        .intro, .sections {
+            padding: 3rem 1rem;
+        }
+        .card {
+            background-color: hsla(0, 0%, 100%, 0.877);
+            margin: 0 auto;
+            width: 90%;
+            border-radius: 5px;
+            padding: 1em;
+        }
+        h1,h2,h3,h4 {
+            font-family: 'DM Serif Display', serif;
+            color: hsl(256, 26%, 20%);
+        }
+    
+        .wrapper {
+            overflow-x: auto;
+            background-color: #fff;
+            padding: 5rem 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .grading {
+            padding: 5rem 1em 3rem;
+        }
+        th,td {
+            text-align: left;
+            padding: 8px;
+        }
+        thead th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd){
+            background-color: #d6d6d6;
+        }
+        .sections {
+            margin: 4em 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto custom-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Membership</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">How it work</a>
+              </li>
+            </ul>
+          </div>
+  
+        </div>
+      </nav>
+    <header>
+        <img src="public/images/image.jpeg" class="main-image" alt="">
+        <div class="intro">
+            <h1>Qawaaid Fiqhiyyah Memorization Hub</h1>
+            <p>The hub is a watsApp based group aimed at fostering the learnig about Islam and Sunnah of the prophet <img src="
+                public/images/icon-arrow.svg" alt=""> <a href="#how-it-work" class="btn btn-sm btn-outline-info">Read more</a></p>
+               <p>To get started and become a member.......
+                   <a class="btn btn-outline-info btn-lg my-2 my-sm-0" href="#membership">Become A Memeber</a>
+               </p>
+        </div>
+    </header>
+
+    
+    <aside class="container">
+        <div class="row">
+            <section class="sections col-lg-4" id="#about"> 
+                <h2>About</h2>
+                <p>This is an educational platform where members memorize some specific lines of poem on weekly basis. The poem at hand is <i><strong> Qawaaid-Fiqeeyyat</strong></i> of <em>Al-Imam Abdulrahman As-sa'ad.</em> May Allah be pleased with him</p>
+                <p>The activities is coordinated by <a href="#">Uztaaz Abu Ukaasha Yusuf Abdulrahman Ajamentala.</a> May All preserve him upon goodness. The main goal is to foster learning and make it easy for all. It is also about spreading the Sunnah as Al-Imaam Ibn Uthaymeen as also encouraged.</p>
+                <div class="card">
+                    <blockquote>
+                        <img src="public/images/icon-quotes.svg" alt=""> Whenever you have the opportunity to spread the sunnah, then do so. You will have the reward of the sunnah and the reward of ones who act upon it till the Day of Judgement.
+                    </blockquote>
+                    <cite>Sharh Riyadh As-saliheen by Shaykh Muhammad ibn Uthaymeen</cite>
+            
+                </div>
+            </section>
+            <section class="sections col-lg-4" id="membership">
+                <h2>Membership</h2>
+                <p>Anyone can participate in this beneficial hub by contacting the coordinator via his watsApp number <a href="#"><i><img src="public/images/icon-phone.svg" alt=""> 09064777159</i></a></p>
+            </section>
+            <section class="sections col-lg-4" id="how-it-work">
+                <h2>How it work</h2>
+                <p>5 lines of poem is memorized on weekly basis. The coordinator do send the voice note of the portion to take to the watsApp group page</p>
+                <p>The explanation of the poem is also sent with it. Every member is then charge to memorize the portion before the week ends.</p>
+                <p>Latest on Sunday, all participating menber must forward a voice note of the portion of the poem taken that week and the grading will be done based on the voice note sent.</p>
+            </section>
+
+        </div>
+    </aside>
+    
+    <div class="wrapper">
+        <div class="grading">
+            <h2>Track your progress!</h2>
+            <p> <strong>This section is for existing members.</strong> Keep track on your record. This grading is as follows... </p>
+        </div>
+        <table>
+            <thead>
+                <th>USERNAME</th>
+                <th>WEEK 1</th>
+                <th>WEEK 2</th>
+                <th>WEEK 3</th>
+                <th>WEEK 4</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Abdul1234</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Abdul1234</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Abdul1234</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Abdul1234</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Abdul1234</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Abdul1234</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Abdul1234</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                </tr>
+                <tr>
+                    <td>Abdul1234</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                    <td>10/10</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+   
+    <footer>
+        <p>Copyright @ 2020 by Abdulsalam</p>
+    </footer>
+
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="public/js/bootstrap.min.js"></script>
+</body>
+</html>
